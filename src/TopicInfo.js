@@ -15,7 +15,7 @@ const SubmitCommentForm = Form.create()(
         }
 
         submit(topicid, username, content, callback){
-            axios.get("http://www.chmod777.top:8080/submitcomment",{
+            axios.get("http://www.*****.top:8080/submitcomment",{
                 params:{
                     topicid: topicid,
                     username: encodeURIComponent(username),
@@ -94,7 +94,7 @@ class TopicInfo extends React.Component{
 
         let _this = this;
         console.log("topicid=", this.state.topicid)
-        axios.get("http://www.chmod777.top:8080/getonetopicinfo",{
+        axios.get("http://www.*****.top:8080/getonetopicinfo",{
             params:{
                 topicid: topicid
             }
@@ -112,7 +112,7 @@ class TopicInfo extends React.Component{
     getTopicComments(topicid){
 
         let _this = this;
-        axios.get("http://www.chmod777.top:8080/gettopiccomments",{
+        axios.get("http://www.*****.top:8080/gettopiccomments",{
             params:{
                 topicid: topicid
             }
