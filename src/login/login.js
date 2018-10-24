@@ -35,7 +35,7 @@ const CollectionCreateForm = Form.create()(//注册表单
         };
 
         register = (username, password, email, callback) =>{
-            axios.get('http://www.chmod777.top:8080/register',{
+            axios.get('http://www.*****.top:8080/register',{
                 params:{
                     username: encodeURIComponent(username),
                     password: encodeURIComponent(password),
