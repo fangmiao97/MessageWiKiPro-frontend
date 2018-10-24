@@ -31,7 +31,7 @@ class Notice extends React.Component{
 
     getAllTopic(){
         let _this = this;
-        axios.get("http://www.chmod777.top:8080/getmostlikedtopics")
+        axios.get("http://www.*****.top:8080/getmostlikedtopics")
             .then(function (reponse) {
                 _this.setState({
                     topics:reponse.data
