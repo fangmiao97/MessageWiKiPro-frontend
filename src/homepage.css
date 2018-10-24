@@ -1,0 +1,33 @@
+.logo {
+    width: 120px;
+    height: 31px;
+    float: left;
+    font-size: x-large;
+    font-family: initial;
+    color: azure;
+    font-weight: lighter;
+}
+
+
+.page{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+.header{
+    background: #48a99b;
+}
+
+.loginPopover{
+    float: right;
+}
+
+.noLoginInvolved{
+    font-family: unset;
+    font-size: 30px;
+    color: darkcyan;
+    padding: inherit;
+}

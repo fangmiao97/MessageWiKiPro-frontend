@@ -1,0 +1,35 @@
+
+.loginCard{
+    margin: auto;
+    border-radius: 5px;
+}
+
+.loginPage{
+    padding-top: 10%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+
+}
+
+.login-form {
+    max-width: 400px;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.collection-create-form_last-form-item {
+    margin-bottom: 10px;
+}
+
+.registerButton{
+    width: 100%;
+}
