@@ -19,7 +19,7 @@ class EditMessageForm extends React.Component{
     }
 
     submit(username, title, content, callback){
-        axios.get("http://www.chmod777.top:8080/submitTopic",{
+        axios.get("http://www.*****.top:8080/submitTopic",{
             params:{
                 username: encodeURIComponent(username),
                 title: encodeURIComponent(title),
