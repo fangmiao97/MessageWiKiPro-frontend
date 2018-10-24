@@ -10,7 +10,7 @@ export default class Auth{
 
     login(username, password, callback, callback2, callback3){
         let _this = this;
-        axios.get('http://www.chmod777.top:8080/loginCertificate',{
+        axios.get('http://www.*****.top:8080/loginCertificate',{
             params:{
                 username:encodeURIComponent(username),
                 password:encodeURIComponent(password)
