@@ -33,7 +33,7 @@ class Involved extends React.Component{
 
     getAllTopic(username){
         let _this = this;
-        axios.get("http://www.chmod777.top:8080/getinvolvedtopics",{
+        axios.get("http://www.*****.top:8080/getinvolvedtopics",{
             params:{
                 username: username
             }
@@ -62,7 +62,7 @@ class Involved extends React.Component{
     }
 
     like(username, topicid){
-        axios.get("http://www.chmod777.top:8080/liketopic",{
+        axios.get("http://www.*****.top:8080/liketopic",{
             params:{
                 username: username,
                 topicid: topicid
@@ -80,7 +80,7 @@ class Involved extends React.Component{
     }
 
     collect(username, topicid){
-        axios.get("http://www.chmod777.top:8080/collecttopic",{
+        axios.get("http://www.*****.top:8080/collecttopic",{
             params:{
                 username: username,
                 topicid: topicid
